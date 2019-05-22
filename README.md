@@ -13,7 +13,7 @@ RHODES ISLAND CODE 也称为“罗德岛CODE”
 ## 引用
 罗德岛CORE中引用的部分内容：
 | 引用        | 来源 |
-| ----------- | ---- |
+| :--------- | :--- |
 | 罗德岛Logo  | [百度贴吧](https://tieba.baidu.com/p/5627569568) |
 | 英文字体    | Swiss921 |
 | 中文字体    | Noto Sans S Chinese Bold |
@@ -25,6 +25,7 @@ RHODES ISLAND CODE 也称为“罗德岛CODE”
 ## 其它 
 - 视差效果可能比较消耗设备性能，如果感到卡顿，可以长按背景`8秒`以上关闭视差效果
 
+
 ------
 ##开发学习研究
 ### 01. Xmorse.js 修改的内容
@@ -33,6 +34,8 @@ RHODES ISLAND CODE 也称为“罗德岛CODE”
 > * 增加 小写英文字母`a-z`扩展码表 (独有功能，原版Morse不支持)
 > * 增加 空格`space` 和换行符`enter` 的支持 (独有功能，原版Morse不支持)
 > * 删除 进制转换过程冗余步骤 ([字符串>16进制>2进制] 修改为 [字符串>2进制])
+
+
 
 ### 02. Chaffle.js 修改的内容
 
@@ -44,6 +47,7 @@ RHODES ISLAND CODE 也称为“罗德岛CODE”
 > * 增加 **maxlength :** `[Number] Max string length` 限制动画字符最大长度（默认为全部字符串的长度）
 > * 增加 **intext :** `"String to be replaced"` 用于js动态替换并显示下一组新的字符串（优先于 **element.textContent** 和 **element.value**）
 > * 增加 **(f) Callback** `Callback function` 当刷新动画字符工作结束时，会回调一次传入的函数，可以用来在它工作结束时做点什么
+
 
 #### 例子
 ``` javascript
