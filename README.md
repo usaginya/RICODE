@@ -11,7 +11,9 @@ RHODES ISLAND CODE 也称为“罗德岛CODE”
 
 ------
 ## 引用
+
 罗德岛CORE中引用的部分内容：
+
 | 引用        | 来源 |
 | :--------- | :--- |
 | 罗德岛Logo  | [百度贴吧](https://tieba.baidu.com/p/5627569568) |
@@ -22,12 +24,14 @@ RHODES ISLAND CODE 也称为“罗德岛CODE”
 | parallax.js  | [GitHub](https://github.com/wagerfield/parallax) |
 
 ------
-## 其它 
+## 其它
+
 - 视差效果可能比较消耗设备性能，如果感到卡顿，可以长按背景`8秒`以上关闭视差效果
 
 
 ------
-##开发学习研究
+## 开发学习研究
+
 ### 01. Xmorse.js 修改的内容
 
 > * 修改 文本转Unicode过程中转换格式错误
@@ -50,6 +54,7 @@ RHODES ISLAND CODE 也称为“罗德岛CODE”
 
 
 #### 例子
+
 ``` javascript
 // HTML 属性调用    [data-chaffle(='lang')]    [data-chaffle-(speed | delay | maxlength)]
     var elements = document.querySelectorAll('[data-chaffle]');
