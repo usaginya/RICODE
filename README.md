@@ -1,6 +1,6 @@
 # RHODES ISLAND CODE
 
-------
+
 ## 介绍
 RHODES ISLAND CODE 也称为“罗德岛CODE”
 在游戏《明日方舟》的彩蛋图上，由斜杠组成的符号，类似：`/\/\ /// // /`
@@ -9,7 +9,9 @@ RHODES ISLAND CODE 也称为“罗德岛CODE”
 罗德岛CODE作用就是帮助你直接转换斜杠电码，获得原始信息
 当然也能将你的信息转换为斜杠电码
 
+
 ------
+
 ## 引用
 
 罗德岛CORE中引用的部分内容：
@@ -23,13 +25,16 @@ RHODES ISLAND CODE 也称为“罗德岛CODE”
 | Chaffle.js (已修改)  | [GitHub](https://github.com/blivesta/chaffle) |
 | parallax.js  | [GitHub](https://github.com/wagerfield/parallax) |
 
+
 ------
+
 ## 其它
 
 - 视差效果可能比较消耗设备性能，如果感到卡顿，可以长按背景`8秒`以上关闭视差效果
 
 
 ------
+
 ## 开发学习研究
 
 ### 01. Xmorse.js 修改的内容
