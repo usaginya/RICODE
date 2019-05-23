@@ -125,9 +125,9 @@ function GetConvertData() {
 		var langJa = codestr.match(/[\u3040-\u309F\u30A0-\u30FF]/g);
 
 		langs.push(
-			['en', langEn ? langEn.length : 0, 380],
-			['zh', langZh ? langZh.length : 0, 350],
-			['ja-hiragana', langJa ? langJa.length : 0, 350]);
+			['en', langEn ? langEn.length : 0],
+			['zh', langZh ? langZh.length : 0],
+			['ja-hiragana', langJa ? langJa.length : 0]);
 
 		codestr = xmorse.encode(codestr, xmOption);
 		codestr = codestr.replace(/\s/g, '   ');
@@ -135,7 +135,7 @@ function GetConvertData() {
 		var lang = langs.sort((a, b) => {
 				return b[1] - a[1];
 			})[0];
-		RunChaffle(lang[0], codestr, lang[2]);
+		RunChaffle(lang[0], codestr);
 
 	}
 
@@ -144,7 +144,7 @@ function GetConvertData() {
 /**********************
  *    运行刷洗字符
  **********************/
-function RunChaffle(lang, intext, maxlength = 230, delay = 20) {
+function RunChaffle(lang, intext, maxlength = 210, delay = 20) {
 	if (chaffleState)
 		return;
 	chaffleState = 1;
