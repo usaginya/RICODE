@@ -114,7 +114,7 @@ function GetConvertData() {
 		//RICode
 		codestr = xmorse.decode(codestr, xmOption);
 		//Send to box
-		RunChaffle('sym', codestr, undefined, 15);
+		RunChaffle('sym', codestr, 215, 16);
 
 	} else {
 		//String
@@ -144,7 +144,7 @@ function GetConvertData() {
 /**********************
  *    运行刷洗字符
  **********************/
-function RunChaffle(lang, intext, maxlength = 210, delay = 20) {
+function RunChaffle(lang, intext, maxlength = 381, delay = 20) {
 	if (chaffleState)
 		return;
 	chaffleState = 1;
