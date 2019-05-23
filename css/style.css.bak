@@ -64,7 +64,6 @@ form {
 	outline:none;
     overflow: -moz-hidden-unscrollable;
     resize:none;
-	word-break:break-all
 }
 
 .codex::-webkit-scrollbar { width: 0 !important }

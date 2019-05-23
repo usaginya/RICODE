@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="fonts/swiss921.css">
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" href="fonts/Noto Sans S Chinese Bold.css">
+<link rel="stylesheet" href="fonts/sarasa-mono-j-bold.css">
 <link rel="stylesheet" href="css/style.min.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/xmorse.min.js"></script>
