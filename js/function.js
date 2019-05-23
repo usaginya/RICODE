@@ -164,5 +164,5 @@ function RunChaffle(lang, intext, maxlength = 230, delay = 20) {
 /**********************
  *    控制台信息
  **********************/
-console.log("%c 罗德岛CODE\n                 by YIU", "padding-bottom:20px;color:#FFF;font:3.5em Brush Script MT;text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15)");
+console.log("%c 罗德岛CODE\n                 by YIU", "padding-bottom:20px;color:#FFF;font-size:3.5em;text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15)");
 console.log("%c                     Github.com/usaginya/RICODE","font-size:2em;color:rgba(67,153,97,.5);text-shadow:2px 2px 2px rgba(236,144,79, 0.6)");
