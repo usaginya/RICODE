@@ -74,7 +74,7 @@ RHODES ISLAND CODE 也称为“罗德岛CODE”
     /* options */
     
     lang: 'en', // 掩码字符类型   default: 'en'
-            // 'sym' | 'en' | 'ja' | 'ja-hiragana' | 'ja-katakana' | 'ua'
+            // 'sym' | 'en' | 'zh' | 'ja-hiragana' | 'ja-katakana' | 'ua'
 
     speed: 20, // 刷新字符速度       default: 20
     
